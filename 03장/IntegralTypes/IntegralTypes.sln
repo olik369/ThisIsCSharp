@@ -43,13 +43,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum2", "..\Enum2\Enum2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum3", "..\Enum3\Enum3.csproj", "{E174A731-7460-4609-92F5-3BBA606E91EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "..\Nullable\Nullable.csproj", "{68D38350-CCBD-473D-9C56-E1CE9174FF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "..\Nullable\Nullable.csproj", "{68D38350-CCBD-473D-9C56-E1CE9174FF59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingVar", "..\UsingVar\UsingVar.csproj", "{E7AA5BF9-20DF-4C6A-8E2C-DB3A16500681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingVar", "..\UsingVar\UsingVar.csproj", "{E7AA5BF9-20DF-4C6A-8E2C-DB3A16500681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTS", "..\CTS\CTS.csproj", "{0488A182-C7E1-4D91-9639-854C3EEF2803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS", "..\CTS\CTS.csproj", "{0488A182-C7E1-4D91-9639-854C3EEF2803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "..\StringSearch\StringSearch.csproj", "{7E288187-0D60-48D1-BC2B-03E8E3581B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSearch", "..\StringSearch\StringSearch.csproj", "{7E288187-0D60-48D1-BC2B-03E8E3581B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringModify", "..\StringModify\StringModify.csproj", "{18107A78-9AB2-4AA5-88F2-21152BBE2CAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSlice", "..\StringSlice\StringSlice.csproj", "{11F152A2-EC8C-460D-A45D-530986C83932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatBasic", "..\StringFormatBasic\StringFormatBasic.csproj", "{CFC7EC31-888C-47C2-9D98-9AE187ED0CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatNumber", "..\StringFormatNumber\StringFormatNumber.csproj", "{2E594A85-781E-4294-909E-2A28630D6B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +161,22 @@ Global
 		{7E288187-0D60-48D1-BC2B-03E8E3581B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E288187-0D60-48D1-BC2B-03E8E3581B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E288187-0D60-48D1-BC2B-03E8E3581B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18107A78-9AB2-4AA5-88F2-21152BBE2CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18107A78-9AB2-4AA5-88F2-21152BBE2CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18107A78-9AB2-4AA5-88F2-21152BBE2CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18107A78-9AB2-4AA5-88F2-21152BBE2CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F152A2-EC8C-460D-A45D-530986C83932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F152A2-EC8C-460D-A45D-530986C83932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F152A2-EC8C-460D-A45D-530986C83932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F152A2-EC8C-460D-A45D-530986C83932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC7EC31-888C-47C2-9D98-9AE187ED0CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC7EC31-888C-47C2-9D98-9AE187ED0CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC7EC31-888C-47C2-9D98-9AE187ED0CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC7EC31-888C-47C2-9D98-9AE187ED0CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E594A85-781E-4294-909E-2A28630D6B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E594A85-781E-4294-909E-2A28630D6B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E594A85-781E-4294-909E-2A28630D6B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E594A85-781E-4294-909E-2A28630D6B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
