@@ -7,7 +7,7 @@ namespace chp7.NullConditionalOperator
     {
         static void Main(string[] args)
         {
-            // p.128
+            // p.130
 
             // 객체?.멤버
             // ?.연산자는 객체의 멤버에 접근하기전에 null이 아닌지 확인하는 연산자

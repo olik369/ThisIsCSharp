@@ -3,19 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp1.ArithmaticOperators", "ArithmaticOperators\chp1.ArithmaticOperators.csproj", "{9EA220FE-E902-42BE-9CB2-5882E59495B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp01.ArithmaticOperators", "ArithmaticOperators\chp01.ArithmaticOperators.csproj", "{9EA220FE-E902-42BE-9CB2-5882E59495B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp2.IncDecOperator", "chp2.IncDecOperator\chp2.IncDecOperator.csproj", "{82259DC5-97E5-426F-B27C-A05C00E0478A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp02.IncDecOperator", "chp2.IncDecOperator\chp02.IncDecOperator.csproj", "{82259DC5-97E5-426F-B27C-A05C00E0478A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp3.StringConcatenate", "StringConcatenate\chp3.StringConcatenate.csproj", "{516D3F8E-D23C-4A9B-BCCC-9EBD30626C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp03.StringConcatenate", "StringConcatenate\chp03.StringConcatenate.csproj", "{516D3F8E-D23C-4A9B-BCCC-9EBD30626C85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp4.RelationalOperator", "chp4.ReltionalOperator\chp4.RelationalOperator.csproj", "{9675DE33-278B-4CC4-8A1C-E3EC0710AA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp04.RelationalOperator", "chp4.ReltionalOperator\chp04.RelationalOperator.csproj", "{9675DE33-278B-4CC4-8A1C-E3EC0710AA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp5.LogicalOperator", "LogicalOperator\chp5.LogicalOperator.csproj", "{86259FD0-2E28-4D32-A308-1A5DA7B4ECC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp05.LogicalOperator", "LogicalOperator\chp05.LogicalOperator.csproj", "{86259FD0-2E28-4D32-A308-1A5DA7B4ECC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp6.ConditionalOperator", "chp6.ConditionalOperator\chp6.ConditionalOperator.csproj", "{4DD4662B-BF59-42F5-9AAE-7512D395F3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp06.ConditionalOperator", "chp6.ConditionalOperator\chp06.ConditionalOperator.csproj", "{4DD4662B-BF59-42F5-9AAE-7512D395F3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp7.NullConditionalOperator", "chp7.NullConditionalOperator\chp7.NullConditionalOperator.csproj", "{96BF80B1-93AC-47F0-A432-16F22D98A6DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp07.NullConditionalOperator", "chp7.NullConditionalOperator\chp07.NullConditionalOperator.csproj", "{96BF80B1-93AC-47F0-A432-16F22D98A6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp08.ShiftOperator", "ShiftOperator\chp08.ShiftOperator.csproj", "{D1C19594-F850-424F-90DE-D52B9212702A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp09.BitwiseOperator", "chp09.BitwiseOperator\chp09.BitwiseOperator.csproj", "{2E4F9457-3970-48BD-B972-56EF915F12D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp10.AssignmentOperator", "chp10.AssignmentOperator\chp10.AssignmentOperator.csproj", "{70260D9A-B881-4247-AF02-A42C869951BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp11.NullCoalescing", "chp11.NullCoalescing\chp11.NullCoalescing.csproj", "{A5DDFCDD-B24C-4294-9AB9-25A48E3CA841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{96BF80B1-93AC-47F0-A432-16F22D98A6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96BF80B1-93AC-47F0-A432-16F22D98A6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96BF80B1-93AC-47F0-A432-16F22D98A6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C19594-F850-424F-90DE-D52B9212702A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C19594-F850-424F-90DE-D52B9212702A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C19594-F850-424F-90DE-D52B9212702A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C19594-F850-424F-90DE-D52B9212702A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4F9457-3970-48BD-B972-56EF915F12D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4F9457-3970-48BD-B972-56EF915F12D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4F9457-3970-48BD-B972-56EF915F12D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4F9457-3970-48BD-B972-56EF915F12D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70260D9A-B881-4247-AF02-A42C869951BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70260D9A-B881-4247-AF02-A42C869951BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70260D9A-B881-4247-AF02-A42C869951BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70260D9A-B881-4247-AF02-A42C869951BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DDFCDD-B24C-4294-9AB9-25A48E3CA841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DDFCDD-B24C-4294-9AB9-25A48E3CA841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DDFCDD-B24C-4294-9AB9-25A48E3CA841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DDFCDD-B24C-4294-9AB9-25A48E3CA841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
