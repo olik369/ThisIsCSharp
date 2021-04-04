@@ -59,13 +59,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFormatBasic", "..\Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFormatNumber", "..\StringFormatNumber\StringFormatNumber.csproj", "{2E594A85-781E-4294-909E-2A28630D6B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatDatetime", "..\StringFormatDatetime\StringFormatDatetime.csproj", "{85134D6F-2EC4-4F89-9134-6362FE638859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFormatDatetime", "..\StringFormatDatetime\StringFormatDatetime.csproj", "{85134D6F-2EC4-4F89-9134-6362FE638859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "..\StringInterpolation\StringInterpolation.csproj", "{73B260A5-A9A3-4145-8919-D5DA933B2E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringInterpolation", "..\StringInterpolation\StringInterpolation.csproj", "{73B260A5-A9A3-4145-8919-D5DA933B2E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제1", "..\연습문제.1\연습문제1.csproj", "{BE94E343-C56B-47B9-9FBF-DFD8C82E3990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "연습문제1", "..\연습문제.1\연습문제1.csproj", "{BE94E343-C56B-47B9-9FBF-DFD8C82E3990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제2", "..\연습문제2\연습문제2.csproj", "{92F274EA-4DC5-471A-A153-7CEFE118D265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "연습문제2", "..\연습문제2\연습문제2.csproj", "{92F274EA-4DC5-471A-A153-7CEFE118D265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
