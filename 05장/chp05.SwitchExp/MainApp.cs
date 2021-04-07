@@ -7,7 +7,7 @@ namespace chp05.SwitchExp
     {
         static void Main(string[] args)
         {
-            //p.181
+            //p.161
 
             WriteLine("점수를 입력하세요");
 
@@ -28,7 +28,7 @@ namespace chp05.SwitchExp
                 60 => "D",
                 _ => "F"
 
-            };
+            };  //세미콜론이 반드시 필요함
 
             WriteLine($"학점 : {grade}");
         }
