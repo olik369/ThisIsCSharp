@@ -13,13 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp04.SwapByRef", "chp04.Sw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp05.RefReturn", "chp05.RefReturn\chp05.RefReturn.csproj", "{C0B2885C-A3E5-4A6B-86ED-1F3789D0FC11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp06.UsingOut", "chp06.UsingOut\chp06.UsingOut.csproj", "{2D117833-8135-4584-848C-2156E1CEF0BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp06.UsingOut", "chp06.UsingOut\chp06.UsingOut.csproj", "{2D117833-8135-4584-848C-2156E1CEF0BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp07.Overloading", "chp07.Overloading\chp07.Overloading.csproj", "{922CC3D0-B7A7-4F0D-A6CA-D7E609267DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp07.Overloading", "chp07.Overloading\chp07.Overloading.csproj", "{922CC3D0-B7A7-4F0D-A6CA-D7E609267DC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp08.UsingParams", "chp08.UsingParams\chp08.UsingParams.csproj", "{33C38FCC-1F65-4ED4-8C46-57E2C095DFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp08.UsingParams", "chp08.UsingParams\chp08.UsingParams.csproj", "{33C38FCC-1F65-4ED4-8C46-57E2C095DFFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp09.NamedParameter", "chp09.NamedParameter\chp09.NamedParameter.csproj", "{5558ED59-20D6-4F26-9FC8-124CE96ABCA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp09.NamedParameter", "chp09.NamedParameter\chp09.NamedParameter.csproj", "{5558ED59-20D6-4F26-9FC8-124CE96ABCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp10.OptionalParameter", "chp10.OptionalParameter\chp10.OptionalParameter.csproj", "{1B507377-74A7-45FB-82F7-22BB0125D9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp11.LocalFunction", "chp11.LocalFunction\chp11.LocalFunction.csproj", "{D6EB2AE2-4142-46B3-BBF1-6AE8FC3F8A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제1", "연습문제1\연습문제1.csproj", "{69D29D0E-67D5-498A-985E-79EABFEB14BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제2", "연습문제2\연습문제2.csproj", "{D4F8A0F9-7F97-43DB-9EBE-6F46CA0098DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제3", "연습문제3\연습문제3.csproj", "{D36B9171-2FD2-4923-8532-FDADE492C8A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{5558ED59-20D6-4F26-9FC8-124CE96ABCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5558ED59-20D6-4F26-9FC8-124CE96ABCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5558ED59-20D6-4F26-9FC8-124CE96ABCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B507377-74A7-45FB-82F7-22BB0125D9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B507377-74A7-45FB-82F7-22BB0125D9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B507377-74A7-45FB-82F7-22BB0125D9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B507377-74A7-45FB-82F7-22BB0125D9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EB2AE2-4142-46B3-BBF1-6AE8FC3F8A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EB2AE2-4142-46B3-BBF1-6AE8FC3F8A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EB2AE2-4142-46B3-BBF1-6AE8FC3F8A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EB2AE2-4142-46B3-BBF1-6AE8FC3F8A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D29D0E-67D5-498A-985E-79EABFEB14BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D29D0E-67D5-498A-985E-79EABFEB14BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D29D0E-67D5-498A-985E-79EABFEB14BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D29D0E-67D5-498A-985E-79EABFEB14BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F8A0F9-7F97-43DB-9EBE-6F46CA0098DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F8A0F9-7F97-43DB-9EBE-6F46CA0098DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F8A0F9-7F97-43DB-9EBE-6F46CA0098DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F8A0F9-7F97-43DB-9EBE-6F46CA0098DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36B9171-2FD2-4923-8532-FDADE492C8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36B9171-2FD2-4923-8532-FDADE492C8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36B9171-2FD2-4923-8532-FDADE492C8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36B9171-2FD2-4923-8532-FDADE492C8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
