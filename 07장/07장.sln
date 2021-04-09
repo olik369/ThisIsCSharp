@@ -27,11 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp11.MethodHiding", "chp11
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp12.SealedMethod", "chp12.SealedMethod\chp12.SealedMethod.csproj", "{C726D257-FA5B-4752-8E3B-816EF0C9344F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp13.ReadonlyFields", "chp13.ReadonlyFields\chp13.ReadonlyFields.csproj", "{762017F9-FC0C-479E-A3AA-87D23E992446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp13.ReadonlyFields", "chp13.ReadonlyFields\chp13.ReadonlyFields.csproj", "{762017F9-FC0C-479E-A3AA-87D23E992446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp14.NestedClass", "chp14.NestedClass\chp14.NestedClass.csproj", "{99FEE923-CDA7-4955-8F39-38AE69CCE307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp14.NestedClass", "chp14.NestedClass\chp14.NestedClass.csproj", "{99FEE923-CDA7-4955-8F39-38AE69CCE307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp15.PartialClass", "chp15.PartialClass\chp15.PartialClass.csproj", "{8844E141-8B28-4F28-87F2-817BBFE20D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp15.PartialClass", "chp15.PartialClass\chp15.PartialClass.csproj", "{8844E141-8B28-4F28-87F2-817BBFE20D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp16.ExtensionMethod", "chp16.ExtensionMethod\chp16.ExtensionMethod.csproj", "{F84B58E1-969E-42BE-AC69-30579AA54A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vitaminQuiz.7-2", "vitaminQuiz.7-2\vitaminQuiz.7-2.csproj", "{04E528DB-A604-4ABB-8195-096F3AF21FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp17.Structure", "chp17.Structure\chp17.Structure.csproj", "{9080AAB0-304C-40C5-9788-DE85F36AB84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp18.ReadonlyStruct", "chp18.ReadonlyStruct\chp18.ReadonlyStruct.csproj", "{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,22 @@ Global
 		{8844E141-8B28-4F28-87F2-817BBFE20D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8844E141-8B28-4F28-87F2-817BBFE20D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8844E141-8B28-4F28-87F2-817BBFE20D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84B58E1-969E-42BE-AC69-30579AA54A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84B58E1-969E-42BE-AC69-30579AA54A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84B58E1-969E-42BE-AC69-30579AA54A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84B58E1-969E-42BE-AC69-30579AA54A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E528DB-A604-4ABB-8195-096F3AF21FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E528DB-A604-4ABB-8195-096F3AF21FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E528DB-A604-4ABB-8195-096F3AF21FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E528DB-A604-4ABB-8195-096F3AF21FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9080AAB0-304C-40C5-9788-DE85F36AB84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9080AAB0-304C-40C5-9788-DE85F36AB84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9080AAB0-304C-40C5-9788-DE85F36AB84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9080AAB0-304C-40C5-9788-DE85F36AB84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
