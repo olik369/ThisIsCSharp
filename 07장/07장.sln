@@ -33,13 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp14.NestedClass", "chp14.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp15.PartialClass", "chp15.PartialClass\chp15.PartialClass.csproj", "{8844E141-8B28-4F28-87F2-817BBFE20D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp16.ExtensionMethod", "chp16.ExtensionMethod\chp16.ExtensionMethod.csproj", "{F84B58E1-969E-42BE-AC69-30579AA54A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp16.ExtensionMethod", "chp16.ExtensionMethod\chp16.ExtensionMethod.csproj", "{F84B58E1-969E-42BE-AC69-30579AA54A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vitaminQuiz.7-2", "vitaminQuiz.7-2\vitaminQuiz.7-2.csproj", "{04E528DB-A604-4ABB-8195-096F3AF21FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vitaminQuiz.7-2", "vitaminQuiz.7-2\vitaminQuiz.7-2.csproj", "{04E528DB-A604-4ABB-8195-096F3AF21FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp17.Structure", "chp17.Structure\chp17.Structure.csproj", "{9080AAB0-304C-40C5-9788-DE85F36AB84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp17.Structure", "chp17.Structure\chp17.Structure.csproj", "{9080AAB0-304C-40C5-9788-DE85F36AB84E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp18.ReadonlyStruct", "chp18.ReadonlyStruct\chp18.ReadonlyStruct.csproj", "{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp18.ReadonlyStruct", "chp18.ReadonlyStruct\chp18.ReadonlyStruct.csproj", "{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp19.ReadonlyMethod", "chp19.ReadonlyMethod\chp19.ReadonlyMethod.csproj", "{53B5A72A-D7A4-480C-80A5-E93117136BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp20.Tuple", "chp20.Tuple\chp20.Tuple.csproj", "{0F480611-A5B4-43A4-9F27-A6FC546BB964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp21.PositionalPattern", "chp21.PositionalPattern\chp21.PositionalPattern.csproj", "{C551E6E8-72BA-46B7-BF0D-089182B54A60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +129,18 @@ Global
 		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B5A72A-D7A4-480C-80A5-E93117136BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B5A72A-D7A4-480C-80A5-E93117136BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B5A72A-D7A4-480C-80A5-E93117136BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B5A72A-D7A4-480C-80A5-E93117136BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F480611-A5B4-43A4-9F27-A6FC546BB964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F480611-A5B4-43A4-9F27-A6FC546BB964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F480611-A5B4-43A4-9F27-A6FC546BB964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F480611-A5B4-43A4-9F27-A6FC546BB964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C551E6E8-72BA-46B7-BF0D-089182B54A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C551E6E8-72BA-46B7-BF0D-089182B54A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C551E6E8-72BA-46B7-BF0D-089182B54A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C551E6E8-72BA-46B7-BF0D-089182B54A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
