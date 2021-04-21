@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp01.CopyingArray", "chp01.CopyingArray\chp01.CopyingArray.csproj", "{29F98D37-9752-425D-8187-A82EEDC32824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp01.CopyingArray", "chp01.CopyingArray\chp01.CopyingArray.csproj", "{29F98D37-9752-425D-8187-A82EEDC32824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp02.Generic", "chp02.Generic\chp02.Generic.csproj", "{C52C628F-B776-4335-9DF3-BD3F8422C665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp02.Generic", "chp02.Generic\chp02.Generic.csproj", "{C52C628F-B776-4335-9DF3-BD3F8422C665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp03.ConstraintsOnTypeParameters", "chp03.ConstraintsOnTypeParameters\chp03.ConstraintsOnTypeParameters.csproj", "{4736CB2E-4760-4385-90C5-F505E4E81699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp03.ConstraintsOnTypeParameters", "chp03.ConstraintsOnTypeParameters\chp03.ConstraintsOnTypeParameters.csproj", "{4736CB2E-4760-4385-90C5-F505E4E81699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp04.UsingGenericList", "chp04.UsingGenericList\chp04.UsingGenericList.csproj", "{4C779517-9950-4638-89A1-42F6C94A0813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp05.UsingGenericQueue", "chp05.UsingGenericQueue\chp05.UsingGenericQueue.csproj", "{F7CD0F47-A722-4CC0-9F0D-BB3AC1752E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp06.UsingGenericStack", "chp06.UsingGenericStack\chp06.UsingGenericStack.csproj", "{7EB3A8B0-324E-4F33-8E2B-BF7881A6A296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp07.UsingDictionary", "chp07.UsingDictionary\chp07.UsingDictionary.csproj", "{69797D53-D4B7-42DB-8EA7-4F3C961FA839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp08.EnumerableGeneric", "chp08.EnumerableGeneric\chp08.EnumerableGeneric.csproj", "{4832C665-44B1-4166-903E-F9719BBCC6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{4736CB2E-4760-4385-90C5-F505E4E81699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4736CB2E-4760-4385-90C5-F505E4E81699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4736CB2E-4760-4385-90C5-F505E4E81699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C779517-9950-4638-89A1-42F6C94A0813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C779517-9950-4638-89A1-42F6C94A0813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C779517-9950-4638-89A1-42F6C94A0813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C779517-9950-4638-89A1-42F6C94A0813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CD0F47-A722-4CC0-9F0D-BB3AC1752E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CD0F47-A722-4CC0-9F0D-BB3AC1752E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CD0F47-A722-4CC0-9F0D-BB3AC1752E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CD0F47-A722-4CC0-9F0D-BB3AC1752E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB3A8B0-324E-4F33-8E2B-BF7881A6A296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB3A8B0-324E-4F33-8E2B-BF7881A6A296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB3A8B0-324E-4F33-8E2B-BF7881A6A296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB3A8B0-324E-4F33-8E2B-BF7881A6A296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69797D53-D4B7-42DB-8EA7-4F3C961FA839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69797D53-D4B7-42DB-8EA7-4F3C961FA839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69797D53-D4B7-42DB-8EA7-4F3C961FA839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69797D53-D4B7-42DB-8EA7-4F3C961FA839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4832C665-44B1-4166-903E-F9719BBCC6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4832C665-44B1-4166-903E-F9719BBCC6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4832C665-44B1-4166-903E-F9719BBCC6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4832C665-44B1-4166-903E-F9719BBCC6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
