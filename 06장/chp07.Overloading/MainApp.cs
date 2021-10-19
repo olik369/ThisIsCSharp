@@ -1,18 +1,16 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp07.Overloading
+namespace Overloading
 {
     class MainApp
     {
-        //p.205
         static int Plus(int a, int b)
         {
             WriteLine("Calling int Plus(int,int)...");
             return a + b;
         }
 
-        static int Plus(int a, int b, int c)
+        static int Plus(int a,int b, int c)
         {
             WriteLine("Calling int Plus(int,int,int)...");
             return a + b + c;

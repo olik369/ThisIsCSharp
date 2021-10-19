@@ -1,7 +1,6 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp11.LocalFunction
+namespace LocalFunction
 {
     class MainApp
     {
@@ -15,19 +14,19 @@ namespace chp11.LocalFunction
 
             char ToLowerChar(int i)
             {
-                if (arr[i] < 65 || arr[i] > 90)    //A~Z의 ASCII 값 : 65~90
+                if (arr[i] < 'A' || arr[i] > 'Z')
                     return arr[i];
-                else                               //a~z의 ASCII 값 : 97~122
-                {
-                    return (char)(arr[i] + 32);
-                }
+                else
+                    return (char)(arr[i] + 'a' - 'A');
             }
+
             return new string(arr);
         }
+
         static void Main(string[] args)
         {
             WriteLine(ToLowerString("Hello!"));
-            WriteLine(ToLowerString("Good Morning!"));
+            WriteLine(ToLowerString("Good Morning."));
             WriteLine(ToLowerString("This is C#."));
         }
     }

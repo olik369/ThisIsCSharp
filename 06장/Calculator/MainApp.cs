@@ -1,9 +1,8 @@
 ﻿using System;
 using static System.Console;
 
-namespace Calculator
+namespace Method
 {
-    //p.188
     class Calculator
     {
         public static int Plus(int a, int b)
@@ -16,9 +15,10 @@ namespace Calculator
             return a - b;
         }
     }
+
     class MainApp
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int result = Calculator.Plus(3, 4);
             WriteLine(result);

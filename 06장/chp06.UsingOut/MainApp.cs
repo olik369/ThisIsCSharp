@@ -1,11 +1,10 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp06.UsingOut
+namespace UsingOut
 {
     class MainApp
     {
-        static void Divide(int a, int b, out int quotient, out int remainder)
+        static void Divide(int a, int b, out int quotient,out int remainder)
         {
             quotient = a / b;
             remainder = a % b;
@@ -15,10 +14,11 @@ namespace chp06.UsingOut
         {
             int a = 20;
             int b = 3;
+            //int c, d;
+            //미리 선언 안해도 됨!!
 
-            Divide(20, 3, out int c, out int d);
-
-            WriteLine($"a:{a}, b:{b}, a/b:{c}, a%b:{d}");
+            Divide(a, b, out int c, out int d);
+            WriteLine($"a : {a}, b : {b}, a / b : {c}, a % b : {d}");
         }
     }
 }

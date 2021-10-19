@@ -1,30 +1,31 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp08.UsingParams
+namespace UsingParams
 {
     class MainApp
     {
         static int Sum(params int[] args)
         {
-            Write("Summing...");
+            Write("Summing... ");
 
             int sum = 0;
 
-            foreach(int a in args)
+            for(int i = 0; i < args.Length; i++)
             {
-                Write($"{a} ");
-                sum += a;
+                sum += args[i];
+                if (i > 0)
+                    Write(", ");
+                Write(args[i]);
             }
-            WriteLine("");
+            WriteLine();
+
             return sum;
         }
 
         static void Main(string[] args)
         {
             int sum = Sum(3, 4, 5, 6, 7, 8, 9, 10);
-
-            WriteLine($"Sum : {sum}");
+            WriteLine($"Sum:{sum}");
         }
     }
 }

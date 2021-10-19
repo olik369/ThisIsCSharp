@@ -1,7 +1,6 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp05.RefReturn
+namespace RefReturn
 {
     class Product
     {
@@ -17,6 +16,7 @@ namespace chp05.RefReturn
             WriteLine($"Price : {price}");
         }
     }
+
     class MainApp
     {
         static void Main(string[] args)
@@ -30,10 +30,9 @@ namespace chp05.RefReturn
             WriteLine($"Normal Local Price : {normal_local_price}");
 
             ref_local_price = 200;
-
-            carrot.PrintPrice();    //200
-            WriteLine($"Local Price : {ref_local_price}");  //200
-            WriteLine($"Normal Local Price : {normal_local_price}");    //100
+            carrot.PrintPrice();
+            WriteLine($"Ref Local Price : {ref_local_price}");
+            WriteLine($"Normal Local Price : {normal_local_price}");
         }
     }
 }
