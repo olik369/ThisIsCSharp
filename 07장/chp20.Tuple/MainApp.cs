@@ -12,7 +12,7 @@ namespace chp20.Tuple
             var a = ("슈퍼맨", 9999);
             WriteLine($"{a.Item1},{a.Item2}");  //명명되지 않은 튜플은 기본적으로 
                                                 //Item1,2,3 등의 필드이름으로 저장됨
-            //명명된 튜플
+                                                //명명된 튜플
             WriteLine("------명명된 튜플------");
             var b = (Name: "김동호", Age: 17); //명명된 인수처럼 호출!
             WriteLine($"{b.Name}, {b.Age}");

@@ -6,7 +6,7 @@ namespace MyExtension
 {
     public static class StringExtension
     {
-        public static string Append(this string src1 ,string src2)
+        public static string Append(this string src1, string src2)
         {
             string result = src1 + src2;
 

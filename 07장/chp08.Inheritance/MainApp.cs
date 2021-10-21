@@ -1,7 +1,6 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp08.Inheritance
+namespace Inheritance
 {
     class Base
     {
@@ -40,6 +39,7 @@ namespace chp08.Inheritance
             WriteLine($"{Name}.DerivedMethod()");
         }
     }
+
     class MainApp
     {
         static void Main(string[] args)
@@ -47,10 +47,8 @@ namespace chp08.Inheritance
             Base a = new Base("a");
             a.BaseMethod();
 
-            Derived b = new Derived("b");   //자식 클래스의 인스턴스가 생성될때 
-                                            //부모클래스의 생성자가 먼저 호출된 후 
-                                            //자식클래스의 생성자가 호출됨
-            b.BaseMethod();         //Base클래스에서 상속받았기에 BaseMethod사용 가능
+            Derived b = new Derived("b");
+            b.BaseMethod();
             b.DerivedMethod();
         }
     }

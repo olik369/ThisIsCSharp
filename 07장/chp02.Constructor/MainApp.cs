@@ -1,10 +1,10 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp02.Constructor
+namespace Constructor
 {
     class Cat
     {
+        // 필드
         public string Name;
         public string Color;
 
@@ -20,21 +20,23 @@ namespace chp02.Constructor
             Color = _Color;
         }
 
+        //C#에서는 되도록 소멸자는 구현하지 않는것이 좋음!
         ~Cat()
         {
-            WriteLine($"{Name} : 잘가");
+            WriteLine($"잘가~");
         }
 
         public void Meow()
         {
-            WriteLine($"{Name} : 야옹");
+            WriteLine($"{Name} : 야옹~");
         }
     }
+
     class MainApp
     {
         static void Main(string[] args)
         {
-            Cat kitty = new Cat("키티", "하얀색");
+            Cat kitty = new Cat(_Name: "키티", _Color: "하얀색");
             kitty.Meow();
             WriteLine($"{kitty.Name} : {kitty.Color}");
 
@@ -42,5 +44,6 @@ namespace chp02.Constructor
             nero.Meow();
             WriteLine($"{nero.Name} : {nero.Color}");
         }
+
     }
 }

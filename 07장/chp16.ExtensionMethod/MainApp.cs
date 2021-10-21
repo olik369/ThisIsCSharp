@@ -1,11 +1,12 @@
-﻿using System;
+﻿using static System.Console;
 using MyExtension;
-using static System.Console;
 
 namespace MyExtension
 {
+    //"public" "static" "class" 클래스이름
     public static class IntegerExtension
     {
+        //"public" "static" 반환형식 메소드이름(this 대상형식 식별자, 매개변수 목록)
         public static int Square(this int myInt)
         {
             return myInt * myInt;
@@ -14,15 +15,16 @@ namespace MyExtension
         public static int Power(this int myInt, int exponent)
         {
             int result = myInt;
-            for (int i = 1; i < exponent; i++)
+            for(int i = 1; i < exponent; i++)
+            {
                 result = result * myInt;
-
+            }
             return result;
         }
     }
 }
 
-namespace chp16.ExtensionMethod
+namespace ExtensionMethod
 {
     class MainApp
     {

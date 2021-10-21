@@ -1,33 +1,32 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp01.BasicClass
+namespace BasicClass
 {
-    class Cat   //클래스 = 설계도
+    class Cat
     {
-        //필드
         public string Name;
         public string Color;
 
-        //메소드
         public void Meow()
         {
-            WriteLine($"{Name} : 야옹");
+            WriteLine($"{Name} : 야옹~");
         }
     }
+
     class MainApp
     {
         static void Main(string[] args)
         {
-            Cat kitty = new Cat();  //클래스 인스턴스(객체) = new 생성자
-            kitty.Color = "하얀색";
+            Cat kitty = new Cat();
             kitty.Name = "키티";
+            kitty.Color = "하얀색";
+
             kitty.Meow();
             WriteLine($"{kitty.Name} : {kitty.Color}");
 
             Cat nero = new Cat();
-            nero.Color = "검은색";
             nero.Name = "네로";
+            nero.Color = "검은색";
             nero.Meow();
             WriteLine($"{nero.Name} : {nero.Color}");
         }

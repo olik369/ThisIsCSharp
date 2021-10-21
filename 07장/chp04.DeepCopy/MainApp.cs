@@ -1,7 +1,6 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp04.DeepCopy
+namespace DeepCopy
 {
     class MyClass
     {
@@ -16,14 +15,13 @@ namespace chp04.DeepCopy
 
             return newCopy;
         }
-
     }
+
     class MainApp
     {
         static void Main(string[] args)
         {
-            WriteLine("Shallow Copy");
-
+            WriteLine("얕은 복사");
             {
                 MyClass source = new MyClass();
                 source.MyField1 = 10;
@@ -36,8 +34,7 @@ namespace chp04.DeepCopy
                 WriteLine($"{target.MyField1} {target.MyField2}");
             }
 
-            WriteLine("Deep Copy");
-
+            WriteLine("깊은 복사");
             {
                 MyClass source = new MyClass();
                 source.MyField1 = 10;

@@ -41,13 +41,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp17.Structure", "chp17.St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp18.ReadonlyStruct", "chp18.ReadonlyStruct\chp18.ReadonlyStruct.csproj", "{17E2611E-E37E-4FF3-A1D0-64A6D967A6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp19.ReadonlyMethod", "chp19.ReadonlyMethod\chp19.ReadonlyMethod.csproj", "{53B5A72A-D7A4-480C-80A5-E93117136BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp19.ReadonlyMethod", "chp19.ReadonlyMethod\chp19.ReadonlyMethod.csproj", "{53B5A72A-D7A4-480C-80A5-E93117136BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp20.Tuple", "chp20.Tuple\chp20.Tuple.csproj", "{0F480611-A5B4-43A4-9F27-A6FC546BB964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp20.Tuple", "chp20.Tuple\chp20.Tuple.csproj", "{0F480611-A5B4-43A4-9F27-A6FC546BB964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp21.PositionalPattern", "chp21.PositionalPattern\chp21.PositionalPattern.csproj", "{C551E6E8-72BA-46B7-BF0D-089182B54A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chp21.PositionalPattern", "chp21.PositionalPattern\chp21.PositionalPattern.csproj", "{C551E6E8-72BA-46B7-BF0D-089182B54A60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "연습문제7", "연습문제7\연습문제7.csproj", "{166D29F4-2FC2-4B67-8125-E33D39D075E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "연습문제7", "연습문제7\연습문제7.csproj", "{166D29F4-2FC2-4B67-8125-E33D39D075E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chp04-1.ICloneable", "chp04-1.ICloneable\chp04-1.ICloneable.csproj", "{0A010D75-13B9-43FC-B858-ABB83B8C004A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{166D29F4-2FC2-4B67-8125-E33D39D075E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166D29F4-2FC2-4B67-8125-E33D39D075E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166D29F4-2FC2-4B67-8125-E33D39D075E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A010D75-13B9-43FC-B858-ABB83B8C004A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A010D75-13B9-43FC-B858-ABB83B8C004A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A010D75-13B9-43FC-B858-ABB83B8C004A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A010D75-13B9-43FC-B858-ABB83B8C004A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

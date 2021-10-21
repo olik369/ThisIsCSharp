@@ -1,7 +1,6 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
-namespace chp10.Overriding
+namespace Overriding
 {
     class ArmorSuite
     {
@@ -13,7 +12,7 @@ namespace chp10.Overriding
 
     class IronMan : ArmorSuite
     {
-        public override void Initialize()   //부모의 메소드를 재정의 하는것임
+        public override void Initialize()
         {
             base.Initialize();
             WriteLine("Repulsor Rays Armed");
@@ -39,19 +38,12 @@ namespace chp10.Overriding
             armorsuite.Initialize();
 
             WriteLine("\nCreating IronMan...");
-            ArmorSuite ironman = new IronMan();
+            IronMan ironman = new IronMan();
             ironman.Initialize();
 
             WriteLine("\nCreating WarMachine...");
-            WarMachine warMachine = new WarMachine();
-            warMachine.Initialize();
-
-            /*
-            WriteLine("\n다형성 실험");
-            ArmorSuite armor = new IronMan();
-            armor.Initialize();
-             */
-            //상속의 다운캐스팅 업캐스팅을 다시 봐야할듯;;
+            WarMachine warmachine = new WarMachine();
+            warmachine.Initialize();
         }
     }
 }
